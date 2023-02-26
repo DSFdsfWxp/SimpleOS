@@ -14,6 +14,11 @@ class simpleOS_t{
     private:
         daemonGroup_t daemon;
         taskTable_t taskTable;
+
+        byte scanIC_extraPort;
+
 };
+
+simpleOS_t simpleOS;
 
 #endif

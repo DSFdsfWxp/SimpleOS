@@ -9,6 +9,8 @@ void simpleOS_t::setup(){
 
     Serial.begin(115200);
 
+    this->scanIC_extraPort = 0x0;
+
     this->daemon.startDaemon<keyScanD>(this->daemon.keyScanD);
 
 

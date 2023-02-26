@@ -7,6 +7,8 @@
 
 void simpleOS_t::setup(){
 
+    Serial.begin(115200);
+
     this->daemon.startDaemon<keyScanD>(this->daemon.keyScanD);
 
 

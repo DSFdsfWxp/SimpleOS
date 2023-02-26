@@ -8,6 +8,8 @@ public:
     virtual ~daemon_t();
 };
 
+#include "keyScanD.h"
+
 class daemonGroup_t
 {
 public:

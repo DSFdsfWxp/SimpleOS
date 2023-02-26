@@ -3,7 +3,9 @@
 
 #include "daemon.h"
 
-class keyScanD : public daemon_t{
+class keyScanD : public daemon_t
+{
+public:
     void start();
     ~keyScanD();
 };

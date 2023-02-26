@@ -3,12 +3,12 @@
 .vscode/
 
 # For arduino-cli
-.bin
-.elf
-.map
-.svd
+*.bin
+*.elf
+*.map
+*.svd
 debug_custom.json
-.cfg
+*.cfg
 build/
 cache/
 output/

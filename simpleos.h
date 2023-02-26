@@ -1,7 +1,7 @@
 #ifndef SimpleOS_h
 #define SimpleOS_h
 
-#include "daemon/daemon.h"
+#include "daemon.h"
 
 class simpleOS_t{
     public:
